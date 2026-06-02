@@ -12,17 +12,21 @@
     "exe": "npm run build && pkg ."
   },
   "devDependencies": {
-    "@es-js/vite-plugin-esjs": "^0.1.0-beta.0",
+    "@es-js/vite-plugin-esjs": "^0.1.0",
+    "pkg": "^5.8.1",
     "vavite": "^3.0.0",
-    "vite": "^5.2.11",
-    "pkg": "^5.8.1"
+    "vite": "^5.2.11"
   },
   "dependencies": {
     "express": "^4.18.2"
   },
-    "pkg": {
-    "assets": ["dist/**/*"],
-    "targets": ["node18-win-x64"],
+  "pkg": {
+    "assets": [
+      "dist/**/*"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ],
     "outputPath": "exe-dist"
   }
 }

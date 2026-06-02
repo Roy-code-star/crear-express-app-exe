@@ -1,4 +1,4 @@
-# 🚀 Express App + EsJS → EXE = Web
+# 🚀 Express App + EsJS + pkg → EXE = Web
 
 ###### 1.- Clonar plantilla:
 
